@@ -1,42 +1,48 @@
 # IntelliJ Guide
 
-### Usefull Features
+### IDE Errors
 
-1. Packages view  
-Project Tool Window on left side - switch to packages view - to view only code related files
-
-2. Run Dashboard for microservices spring boot  
-View -> Tools Window -> Run dashboard, usefull for running/managing multiple microservice spring boot apps
-
-3. Scratch File  
-File -> New -> Scratch File, save tryouts or unwanted code temporarily in scratch files, it is not added in version control.
-Project Tool Window on left side - switch to Scratches view - to view only scratch files
-
-4. Annotate - Find who commited a particular line  
-double click on the space where line number of the java file is displayed, select annotate.
-
-5. Inspect code - Warnings, spellings errors and code improvements  
-right click on the java file, Analyze -> inspect code, to view all the warnings, spelling errors and minor code improvements that can be done.
-
-
-
-7. Invalidate cache and restart - Incase of IDE errors  
+1. Invalidate cache and restart - Incase of IDE errors  
 File -> Invalidate caches and restart, this will fix any errors in the project that was caused by IDE.  
 (eg. could be a error in pom.xml or dependencies are downloaded, yet IDE shows package not found error when it is imported in the java file)
 
-8. Synchronize - sync with local workspace
+2. Synchronize - sync with local workspace
 File -> Synchronize, synchronize local work space with IntelliJ, incase of switching branch using terminal (the one that is outside of IntelliJ).
 
 
+### Code
+
+1. Scratch File  
+File -> New -> Scratch File, save tryouts or unwanted code temporarily in scratch files, it is not added in version control.
+Project Tool Window on left side - switch to Scratches view - to view only scratch files
+
+2. Inspect code - Warnings, spellings errors and code improvements  
+right click on the java file, Analyze -> inspect code, to view all the warnings, spelling errors and minor code improvements that can be done.
+
+3. Format xml file or any file
+Code -> Reformat Code, I mainly use it to format xml files, life saver.
+
+4. Optimize the import statements
+Code -> Optimize imports, We can enable this by default for every commit, in the git window. 
+
+5. Navigate to a particular line
+command + L, enter the line number
+
+6. View contents of a class in the same window 
+option + space, the contents of the class can be viewed as a pop up, easier to view what's inside a library class (eg: Timestamp class in java)
+
+7. View all methods in a class
+Command + function 12, to see members of the class, useful while analyzing at library classes
+
+8. View method hierarchy
+control + H
 
 
-option space, class definition as the pop up
+### Git
 
-command function 12 to see member of the class
-5. command + L , line navigation
+1. Annotate - Find who commited a particular line  
+double click on the space where line number of the java file is displayed, select annotate.
 
-
-control + H view hierachary
 
 ### Searching
 
@@ -66,3 +72,13 @@ View -> Enter Distraction free mode, enables full screen with only the code in t
 
 3. Increase/Decrease Font size    
 Command + shift + A, type font, you can see options to increase/decrease font size
+
+4. Packages and Scratches view  
+Project Tool Window on left side - switch to packages view - to view only code related files
+Project Tool Window on left side - switch to Scratches view - to view only scratch files
+
+
+### Dashboard
+
+1. Run Dashboard for microservices spring boot
+View -> Tools Window -> Run dashboard, usefull for running/managing multiple microservice spring boot apps
