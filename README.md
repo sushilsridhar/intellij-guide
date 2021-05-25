@@ -19,22 +19,22 @@ Project Tool Window on left side - switch to Scratches view - to view only scrat
 2. Inspect code - Warnings, spellings errors and code improvements  
 right click on the java file, Analyze -> inspect code, to view all the warnings, spelling errors and minor code improvements that can be done.
 
-3. Format xml file or any file
+3. Format xml file or any file  
 Code -> Reformat Code, I mainly use it to format xml files, life saver.
 
-4. Optimize the import statements
+4. Optimize the import statements  
 Code -> Optimize imports, We can enable this by default for every commit, in the git window. 
 
-5. Navigate to a particular line
+5. Navigate to a particular line  
 command + L, enter the line number
 
-6. View contents of a class in the same window 
+6. View contents of a class in the same window  
 option + space, the contents of the class can be viewed as a pop up, easier to view what's inside a library class (eg: Timestamp class in java)
 
-7. View all methods in a class
+7. View all methods in a class  
 Command + function 12, to see members of the class, useful while analyzing at library classes
 
-8. View method hierarchy
+8. View method hierarchy  
 control + H
 
 
@@ -80,5 +80,14 @@ Project Tool Window on left side - switch to Scratches view - to view only scrat
 
 ### Dashboard
 
-1. Run Dashboard for microservices spring boot
+1. Run Dashboard for microservices spring boot  
 View -> Tools Window -> Run dashboard, usefull for running/managing multiple microservice spring boot apps
+
+
+### Debugging
+
+1. Monitor a variable through out the debugging session  
+left click on the variable and click Add to watches
+
+2. Access all debug points  
+click on favourites tab on left bottom, or left click on the debug point icon and click more 
