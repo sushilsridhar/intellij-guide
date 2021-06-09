@@ -77,6 +77,9 @@ Command + shift + A, type font, you can see options to increase/decrease font si
 Project Tool Window on left side - switch to packages view - to view only code related files
 Project Tool Window on left side - switch to Scratches view - to view only scratch files
 
+5. Split screen - have two java file side by side   
+Double click on the file, select split on right.
+
 
 ### Dashboard
 
