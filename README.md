@@ -1,5 +1,10 @@
 # IntelliJ Guide
 
+### Fast Coding
+
+1. Command + N - generate constructor, getter setter    
+2. Control + I - overide methods
+
 ### IDE Errors
 
 1. Invalidate cache and restart - Incase of IDE errors  
