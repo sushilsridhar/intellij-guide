@@ -4,6 +4,8 @@
 
 1. Command + N - generate constructor, getter setter    
 2. Control + I - overide methods
+3. fn + shift + f6 - rename file
+4. control + option + o - optimize imports
 
 ### IDE Errors
 
